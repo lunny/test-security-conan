@@ -1,0 +1,84 @@
+{
+ "graph_lock": {
+  "nodes": {
+   "0": {
+    "options": "jerryscript:amalgamated=False\njerryscript:cpointer_32_bit=False\njerryscript:debugger=False\njerryscript:default_port_implementation=True\njerryscript:enable_dump_bytecode=False\njerryscript:enable_dump_regexp_bytecode=False\njerryscript:error_messages=False\njerryscript:external_context=False\njerryscript:fPIC=True\njerryscript:gc_before_each_alloc=False\njerryscript:gc_limit=0\njerryscript:gc_mark_limit=8\njerryscript:heap_size=512\njerryscript:jerry_ext=True\njerryscript:jerry_math=True\njerryscript:link_time_optimization=False\njerryscript:logging=False\njerryscript:memory_statistics=False\njerryscript:parser=True\njerryscript:profile=es5.1\njerryscript:promise_callback=False\njerryscript:shared=False\njerryscript:snapshot_execution=False\njerryscript:snapshot_saving=False\njerryscript:stack_limit=0\njerryscript:strict_regexp=False\njerryscript:strip_symbols=True\njerryscript:system_allocator=False\njerryscript:tool_cmdline=True\njerryscript:tool_cmdline_snapshot=False\njerryscript:tool_cmdline_test=False\njerryscript:valgrind=False\njerryscript:vm_exec_stop=False\nnumcpp:threads=False\nnumcpp:with_boost=True\nwolfssl:alpn=False\nwolfssl:certgen=False\nwolfssl:des3=False\nwolfssl:dsa=False\nwolfssl:fPIC=True\nwolfssl:opensslall=False\nwolfssl:opensslextra=False\nwolfssl:ripemd=False\nwolfssl:sessioncerts=False\nwolfssl:shared=False\nwolfssl:sni=False\nwolfssl:sslv3=False\nwolfssl:testcert=False\nwolfssl:tls13=False\nzstd:fPIC=True\nzstd:shared=False\nzstd:threading=True",
+    "requires": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ],
+    "path": "conanfile.txt",
+    "context": "host"
+   },
+   "1": {
+    "ref": "zstd/1.4.4#1ed9e24e35999bbbb576401e9917990d",
+    "options": "fPIC=True\nshared=False\nthreading=True",
+    "package_id": "a1fcff3227a663d62f35b4eedde78f4ce0fcd438",
+    "prev": "c6e34d4f1c1f1c8b3a248a8b49cba00d",
+    "context": "host"
+   },
+   "2": {
+    "ref": "jerryscript/2.2.0#db2ff4edf3507cf583f1403faccd1068",
+    "options": "amalgamated=False\ncpointer_32_bit=False\ndebugger=False\ndefault_port_implementation=True\nenable_dump_bytecode=False\nenable_dump_regexp_bytecode=False\nerror_messages=False\nexternal_context=False\nfPIC=True\ngc_before_each_alloc=False\ngc_limit=0\ngc_mark_limit=8\nheap_size=512\njerry_ext=True\njerry_math=True\nlink_time_optimization=False\nlogging=False\nmemory_statistics=False\nparser=True\nprofile=es5.1\npromise_callback=False\nshared=False\nsnapshot_execution=False\nsnapshot_saving=False\nstack_limit=0\nstrict_regexp=False\nstrip_symbols=True\nsystem_allocator=False\ntool_cmdline=True\ntool_cmdline_snapshot=False\ntool_cmdline_test=False\nvalgrind=False\nvm_exec_stop=False",
+    "package_id": "ed93f9ef07962c9b8e25746ae2dab788a25b93d8",
+    "prev": "ecb27a5aa57f26f1bce9e641c4037fd2",
+    "context": "host"
+   },
+   "3": {
+    "ref": "wolfssl/4.4.0#06816caa52808fbf487e5bba7adc3dba",
+    "options": "alpn=False\ncertgen=False\ndes3=False\ndsa=False\nfPIC=True\nopensslall=False\nopensslextra=False\nripemd=False\nsessioncerts=False\nshared=False\nsni=False\nsslv3=False\ntestcert=False\ntls13=False",
+    "package_id": "6af9cc7cb931c5ad942174fd7838eb655717c709",
+    "prev": "cba320b79c3adb87253034b16aa62417",
+    "context": "host"
+   },
+   "4": {
+    "ref": "numcpp/2.11.0#dbb17e54335c155ca697223be4d8c46c",
+    "options": "threads=False\nwith_boost=True\nboost:addr2line_location=/usr/bin/addr2line\nboost:asio_no_deprecated=False\nboost:buildid=None\nboost:bzip2=True\nboost:debug_level=0\nboost:diagnostic_definitions=False\nboost:error_code_header_only=False\nboost:extra_b2_flags=None\nboost:fPIC=True\nboost:filesystem_no_deprecated=False\nboost:filesystem_use_std_fs=False\nboost:filesystem_version=None\nboost:header_only=False\nboost:i18n_backend=deprecated\nboost:i18n_backend_iconv=libc\nboost:i18n_backend_icu=False\nboost:layout=system\nboost:lzma=False\nboost:magic_autolink=False\nboost:multithreading=True\nboost:namespace=boost\nboost:namespace_alias=False\nboost:numa=True\nboost:pch=True\nboost:python_executable=None\nboost:python_version=None\nboost:segmented_stacks=False\nboost:shared=False\nboost:system_no_deprecated=False\nboost:system_use_utf8=False\nboost:visibility=hidden\nboost:with_stacktrace_backtrace=True\nboost:without_atomic=False\nboost:without_chrono=False\nboost:without_container=False\nboost:without_context=False\nboost:without_contract=False\nboost:without_coroutine=False\nboost:without_date_time=False\nboost:without_exception=False\nboost:without_fiber=False\nboost:without_filesystem=False\nboost:without_graph=False\nboost:without_graph_parallel=True\nboost:without_iostreams=False\nboost:without_json=False\nboost:without_locale=False\nboost:without_log=False\nboost:without_math=False\nboost:without_mpi=True\nboost:without_nowide=False\nboost:without_program_options=False\nboost:without_python=True\nboost:without_random=False\nboost:without_regex=False\nboost:without_serialization=False\nboost:without_stacktrace=False\nboost:without_system=False\nboost:without_test=False\nboost:without_thread=False\nboost:without_timer=False\nboost:without_type_erasure=False\nboost:without_url=False\nboost:without_wave=False\nboost:zlib=True\nboost:zstd=False\nbzip2:build_executable=True\nbzip2:fPIC=True\nbzip2:shared=False\nlibbacktrace:fPIC=True\nlibbacktrace:shared=False\nzlib:fPIC=True\nzlib:shared=False",
+    "package_id": "5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9",
+    "prev": "fb3b196c011f340ba38aea80a0cf1713",
+    "requires": [
+     "5"
+    ],
+    "context": "host"
+   },
+   "5": {
+    "ref": "boost/1.83.0#e948ecbe69e6e240658ba2eda46ba8e8",
+    "options": "addr2line_location=/usr/bin/addr2line\nasio_no_deprecated=False\nbuildid=None\nbzip2=True\ndebug_level=0\ndiagnostic_definitions=False\nerror_code_header_only=False\nextra_b2_flags=None\nfPIC=True\nfilesystem_no_deprecated=False\nfilesystem_use_std_fs=False\nfilesystem_version=None\nheader_only=False\ni18n_backend=deprecated\ni18n_backend_iconv=libc\ni18n_backend_icu=False\nlayout=system\nlzma=False\nmagic_autolink=False\nmultithreading=True\nnamespace=boost\nnamespace_alias=False\nnuma=True\npch=True\npython_executable=None\npython_version=None\nsegmented_stacks=False\nshared=False\nsystem_no_deprecated=False\nsystem_use_utf8=False\nvisibility=hidden\nwith_stacktrace_backtrace=True\nwithout_atomic=False\nwithout_chrono=False\nwithout_container=False\nwithout_context=False\nwithout_contract=False\nwithout_coroutine=False\nwithout_date_time=False\nwithout_exception=False\nwithout_fiber=False\nwithout_filesystem=False\nwithout_graph=False\nwithout_graph_parallel=True\nwithout_iostreams=False\nwithout_json=False\nwithout_locale=False\nwithout_log=False\nwithout_math=False\nwithout_mpi=True\nwithout_nowide=False\nwithout_program_options=False\nwithout_python=True\nwithout_random=False\nwithout_regex=False\nwithout_serialization=False\nwithout_stacktrace=False\nwithout_system=False\nwithout_test=False\nwithout_thread=False\nwithout_timer=False\nwithout_type_erasure=False\nwithout_url=False\nwithout_wave=False\nzlib=True\nzstd=False\nbzip2:build_executable=True\nbzip2:fPIC=True\nbzip2:shared=False\nlibbacktrace:fPIC=True\nlibbacktrace:shared=False\nzlib:fPIC=True\nzlib:shared=False",
+    "package_id": "ca891ed5c8e67ebb3e46639c100abdbca6d8b11e",
+    "prev": "e58cec9cc26f1f724f08880eb2a08150",
+    "requires": [
+     "6",
+     "7",
+     "8"
+    ],
+    "context": "host"
+   },
+   "6": {
+    "ref": "zlib/1.3#06023034579559bb64357db3a53f88a4",
+    "options": "fPIC=True\nshared=False",
+    "package_id": "6af9cc7cb931c5ad942174fd7838eb655717c709",
+    "prev": "c7344cee5c7f10f2a83acf16032b8229",
+    "context": "host"
+   },
+   "7": {
+    "ref": "bzip2/1.0.8#411fc05e80d47a89045edc1ee6f23c1d",
+    "options": "build_executable=True\nfPIC=True\nshared=False",
+    "package_id": "da606cf731e334010b0bf6e85a2a6f891b9f36b0",
+    "prev": "042db67985ae8f0d1601cdcb5374f4c7",
+    "context": "host"
+   },
+   "8": {
+    "ref": "libbacktrace/cci.20210118#ec1aa63bbc10145c6a299e68e711670c",
+    "options": "fPIC=True\nshared=False",
+    "package_id": "6af9cc7cb931c5ad942174fd7838eb655717c709",
+    "prev": "0dc12fea174fd61274a461380b9a338f",
+    "context": "host"
+   }
+  },
+  "revisions_enabled": true
+ },
+ "version": "0.4",
+ "profile_host": "[settings]\narch=x86_64\narch_build=x86_64\nbuild_type=Release\ncompiler=gcc\ncompiler.libcxx=libstdc++11\ncompiler.version=9\nos=Linux\nos_build=Linux\n[options]\n[build_requires]\n[env]\n"
+}
